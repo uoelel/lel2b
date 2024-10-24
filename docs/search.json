@@ -32,7 +32,7 @@
     "href": "slides/lecture-01.html#exploratory-vs-corroboratory",
     "title": "Empirical research",
     "section": "Exploratory vs corroboratory",
-    "text": "Exploratory vs corroboratory\n ##"
+    "text": "Exploratory vs corroboratory"
   },
   {
     "objectID": "slides/lecture-01.html#axes-of-research-types-2",
@@ -53,7 +53,7 @@
     "href": "slides/lecture-01.html#types-of-research-objectives-examples",
     "title": "Empirical research",
     "section": "Types of research objectives: examples",
-    "text": "Types of research objectives: examples\nEstablish facts\n\nWhat are the uses of the Sanskrit verb gam ‘to go’.\n\nImprove fit of framework to facts\n\nStrong exemplar-based models preclude the possibility of abstract representations.\nYou run a study that assess whether abstract representations cam be formed.\nThe results indicate that certain categorisation tasks seem to involve abstract representations.\nSo we update our exemplar-based framework to include abstractions.\n\nCompare fit of different frameworks to facts\n\nXXX"
+    "text": "Types of research objectives: examples\nEstablish facts\n\nWhat are the uses of the Sanskrit verb gam ‘to go’.\n\nImprove fit of framework to facts\n\nStrong exemplar-based models preclude the possibility of abstract representations.\nIf the results of a study indicate that certain categorisation tasks seem to involve abstract representations, we update our exemplar-based framework to include abstractions.\n\nCompare fit of different frameworks to facts\n\nIn the sentence “Stefano emailed Bert. I saw him in DSB.”, the subjecthood hypothesis states that him refers to Stefano, while under the “syntactic parallelism” hypothesis him refers to Bert.\nWe test these hypotheses using empirical data."
   },
   {
     "objectID": "slides/lecture-01.html#research-methods",
@@ -88,7 +88,7 @@
     "href": "slides/lecture-01.html#research-question-and-hypotheses",
     "title": "Empirical research",
     "section": "Research question and hypotheses",
-    "text": "Research question and hypotheses\nResearch question\n\nResearch questions are testable questions whose answers directly address the problem.\n\nResearch hypothesis\n\nResearch hypotheses are statements (not questions) about the research problem.\nHypotheses must be falsifiable (there can be in principle an outcome that shows them to be false).\nHypotheses are never true nor confirmed. We can only corroborate hypothesis, and it’s a long term process."
+    "text": "Research question and hypotheses\nResearch question\n\nResearch questions are testable questions whose answers directly address the problem.\n\nResearch hypothesis\n\nResearch hypotheses are statements (not questions) about the research problem.\nHypotheses must be falsifiable (there can be in principle an outcome that shows them to be false).\n\nA falsifiable hypothesis cannot include “may, could, might, in certain contexts” or any other vague expression!\n\nHypotheses are never true nor confirmed. We can only corroborate hypothesis, and it’s a long term process."
   },
   {
     "objectID": "slides/lecture-01.html#in-the-next-lecture",
@@ -208,5 +208,12 @@
     "title": "Empirical research",
     "section": "Many Analysts, One Data Set: Coretta et al 2023",
     "text": "Many Analysts, One Data Set: Coretta et al 2023\n\n\n\n\nDo speakers acoustically modify utterances to signal atypical word combinations?\n\n30 independent analysis teams (84 signed up, 46 submitted an analysis, 30 submitted usable analyses).\n109 individual analyses.\n52 unique measurement specifications, 47 unique model specifications.\n\n\nNine teams out of the thirty (30%) reported to have found at least one statistically reliable effect (based on the inferential criteria they specified). Of the 170 critical model coefficients, 37 were claimed to show a statistically reliable effect (21.8%).\n\n—Coretta et al, 2023"
+  },
+  {
+    "objectID": "slides/lecture-01.html#research-question-and-hypotheses-examples",
+    "href": "slides/lecture-01.html#research-question-and-hypotheses-examples",
+    "title": "Empirical research",
+    "section": "Research question and hypotheses: examples",
+    "text": "Research question and hypotheses: examples\nResearch questions\n\nWhat are the pragmatic uses of bro in the LGBTQ+ community?\nHow do British Sign Language users mark evidentiality?\nWhy do vowels tend to be shorter before voiceless consonants and longer before voiced ones?\n\nResearch hypotheses\n\nDemoted subjects cannot be placed in focus positions.\nHigh vowels are shorter than low vowels.\nLexical change is driven by young female speakers in the working class but by old male speakers in the middle and upper classes.\n\n[Check this conversation with ChatGPT on hypotheses in linguistics: https://chatgpt.com/share/671a0249-4eac-800a-98cd-2d6190242f5a]"
   }
 ]
