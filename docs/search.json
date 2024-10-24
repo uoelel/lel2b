@@ -91,6 +91,13 @@
     "text": "Research question and hypotheses\nResearch question\n\nResearch questions are testable questions whose answers directly address the problem.\n\nResearch hypothesis\n\nResearch hypotheses are statements (not questions) about the research problem.\nHypotheses must be falsifiable (there can be in principle an outcome that shows them to be false).\n\nA falsifiable hypothesis cannot include “may, could, might, in certain contexts” or any other vague expression!\n\nHypotheses are never true nor confirmed. We can only corroborate hypothesis, and it’s a long term process."
   },
   {
+    "objectID": "slides/lecture-01.html#research-question-and-hypotheses-examples",
+    "href": "slides/lecture-01.html#research-question-and-hypotheses-examples",
+    "title": "Empirical research",
+    "section": "Research question and hypotheses: examples",
+    "text": "Research question and hypotheses: examples\nResearch questions\n\nWhat are the pragmatic uses of bro in the LGBTQ+ community?\nHow do British Sign Language users mark evidentiality?\nWhy do vowels tend to be shorter before voiceless consonants and longer before voiced ones?\n\nResearch hypotheses\n\nDemoted subjects cannot be placed in focus positions.\nHigh vowels are shorter than low vowels.\nLexical change is driven by young female speakers in the working class but by old male speakers in the middle and upper classes.\n\n[Check this conversation with ChatGPT on hypotheses in linguistics: https://chatgpt.com/share/671a0249-4eac-800a-98cd-2d6190242f5a]"
+  },
+  {
     "objectID": "slides/lecture-01.html#in-the-next-lecture",
     "href": "slides/lecture-01.html#in-the-next-lecture",
     "title": "Empirical research",
@@ -137,7 +144,7 @@
     "href": "slides/lecture-02.html#inference-process",
     "title": "Empirical research",
     "section": "Inference process",
-    "text": "Inference process\n ]\n\nImbuing numbers with meaning is a good characterisation of the “inference process”.\nWe have a question about something.\nLet’s imagine that this something is the population of British Sign Language signers.\nWe want to know whether the cultural background of the BSL signers is linked to different pragmatic uses of the sign for BROTHER.\nBut we can’t survey the entire population of BSL signers.\nNOTE: Population can be a set of anything, not just a specific group of people. For example, the words in a dictionary can be a “population”; or the antipassive constructions of Austronesian languages; or …"
+    "text": "Inference process\n\n\nImbuing numbers with meaning is a good characterisation of the “inference process”.\nWe have a question about something.\nLet’s imagine that this something is the population of British Sign Language signers.\nWe want to know whether the cultural background of the BSL signers is linked to different pragmatic uses of the sign for BROTHER.\nBut we can’t survey the entire population of BSL signers.\nNOTE: Population can be a set of anything, not just a specific group of people. For example, the words in a dictionary can be a “population”; or the antipassive constructions of Austronesian languages; or …"
   },
   {
     "objectID": "slides/lecture-02.html#inference-process-1",
@@ -151,7 +158,7 @@
     "href": "slides/lecture-02.html#inference-is-not-infallible",
     "title": "Empirical research",
     "section": "Inference is not infallible",
-    "text": "Inference is not infallible\nHowever, inference based on data does not guarantee that the answers to our questions are right/true.\nIn fact, any observation we make comes with a degree of uncertainty and variability.\n\nEXTRA: Check out this article: https://www.scientificamerican.com/article/if-you-say-science-is-right-youre-wrong/\nEXTRA: Find out about Popper’s view of falsification and fallibilism."
+    "text": "Inference is not infallible\nHowever, inference based on data does not guarantee that the answers to our questions are right/true.\n\nIn fact, any observation we make comes with a degree of uncertainty and variability.\n\nEXTRA: Check out this article: https://www.scientificamerican.com/article/if-you-say-science-is-right-youre-wrong/\nEXTRA: Find out about Popper’s view of falsification and fallibilism."
   },
   {
     "objectID": "slides/lecture-02.html#uncertainty-and-variability",
@@ -210,10 +217,52 @@
     "text": "Many Analysts, One Data Set: Coretta et al 2023\n\n\n\n\nDo speakers acoustically modify utterances to signal atypical word combinations?\n\n30 independent analysis teams (84 signed up, 46 submitted an analysis, 30 submitted usable analyses).\n109 individual analyses.\n52 unique measurement specifications, 47 unique model specifications.\n\n\nNine teams out of the thirty (30%) reported to have found at least one statistically reliable effect (based on the inferential criteria they specified). Of the 170 critical model coefficients, 37 were claimed to show a statistically reliable effect (21.8%).\n\n—Coretta et al, 2023"
   },
   {
-    "objectID": "slides/lecture-01.html#research-question-and-hypotheses-examples",
-    "href": "slides/lecture-01.html#research-question-and-hypotheses-examples",
+    "objectID": "slides/lecture-02.html#research-process-cycle",
+    "href": "slides/lecture-02.html#research-process-cycle",
     "title": "Empirical research",
-    "section": "Research question and hypotheses: examples",
-    "text": "Research question and hypotheses: examples\nResearch questions\n\nWhat are the pragmatic uses of bro in the LGBTQ+ community?\nHow do British Sign Language users mark evidentiality?\nWhy do vowels tend to be shorter before voiceless consonants and longer before voiced ones?\n\nResearch hypotheses\n\nDemoted subjects cannot be placed in focus positions.\nHigh vowels are shorter than low vowels.\nLexical change is driven by young female speakers in the working class but by old male speakers in the middle and upper classes.\n\n[Check this conversation with ChatGPT on hypotheses in linguistics: https://chatgpt.com/share/671a0249-4eac-800a-98cd-2d6190242f5a]"
+    "section": "Research process cycle",
+    "text": "Research process cycle"
+  },
+  {
+    "objectID": "slides/lecture-02.html#questionable-research-practices",
+    "href": "slides/lecture-02.html#questionable-research-practices",
+    "title": "Empirical research",
+    "section": "Questionable Research Practices",
+    "text": "Questionable Research Practices"
+  },
+  {
+    "objectID": "slides/lecture-02.html#the-new-statistics-the-problem",
+    "href": "slides/lecture-02.html#the-new-statistics-the-problem",
+    "title": "Empirical research",
+    "section": "The “New Statistics”: the problem",
+    "text": "The “New Statistics”: the problem\nThe Silberzahn et al and Coretta et al studies are just the tip of the iceberg. We are currently facing a “research crisis”.\n\nThe New Statistics (Cumming 2014) mainly addresses three problems:\n\nPublished research is a biased selection of all (existing and possible) research.\n\n\n\n\nData analysis and reporting are often selective and biased.\n\n\n\n\nIn many research fields, studies are rarely replicated, so false conclusions persist."
+  },
+  {
+    "objectID": "slides/lecture-02.html#the-new-statistics-the-solution",
+    "href": "slides/lecture-02.html#the-new-statistics-the-solution",
+    "title": "Empirical research",
+    "section": "The “New Statistics”: the solution",
+    "text": "The “New Statistics”: the solution\nTo help solve those problems, it proposes these solutions (among others):\n\nPromoting research integrity.\n\n\n\nShifting away from statistical significance to estimation.\n\n\n\n\nBuilding a cumulative quantitative discipline."
+  },
+  {
+    "objectID": "slides/lecture-02.html#two-approaches-to-statistics",
+    "href": "slides/lecture-02.html#two-approaches-to-statistics",
+    "title": "Empirical research",
+    "section": "Two approaches to statistics",
+    "text": "Two approaches to statistics\n\nNull Hypothesis Significance Testing (NHST)\n\nFocusses on rejecting a null (i.e. nil) hypothesis.\nBased on p-values.\nIt cannot tell us anything about our actual hypothesis (not even if it’s a nil hypothesis).\n\n\n\n\nBayesian statistics\n\nFocusses on estimating effects of variables on other variables, differences among groups, relationships between variables.\nIt allows us to estimate how confident we can be in our actual hypothesis.\n\n\n\n\nTo learn more, check this entry from the QML course (Hons and MSc)."
+  },
+  {
+    "objectID": "slides/lecture-02.html#resources",
+    "href": "slides/lecture-02.html#resources",
+    "title": "Empirical research",
+    "section": "Resources",
+    "text": "Resources\nCourses and workshops\n\nQuantitative Methods in Linguistics and English Language (Hons and MSc). Materials here.\nStats workshops for intermediate and advanced users: STeW series (https://uoelel.github.io/stew.html).\n\nTextbooks\n\nStatistics for Linguists in R by Bodo Winter.\nStatistical Rethinking by Richard McElreath.\n\nImportant topics\n\nOpen Research/Scholarship practices.\nRegression modelling."
+  },
+  {
+    "objectID": "slides/lecture-02.html#data-analysis-at-uoe-lel",
+    "href": "slides/lecture-02.html#data-analysis-at-uoe-lel",
+    "title": "Empirical research",
+    "section": "Data Analysis at UoE LEL",
+    "text": "Data Analysis at UoE LEL\nhttps://uoelel.github.io"
   }
 ]

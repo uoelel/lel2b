@@ -36,14 +36,13 @@ For, you see, so many out-of-the-way things had happened lately, that Alice had 
 
 ##
 
-The numbers have no way of speaking for themselves. We speak for them. We imbue them with meaning.
+### The numbers have no way of speaking for themselves. We speak for them. We imbue them with meaning.
 
 — Nate Silver, *The Signal and the Noise*
 
 ## Inference process
 
-![](../img/bro.png)
-]
+![](../img/bro.png){fig-align="center"}
 
 
 ::: {.notes}
@@ -62,7 +61,7 @@ NOTE: *Population* can be a set of anything, not just a specific group of people
 
 ## Inference process
 
-![](../img/inference.png)
+![](../img/inference.png){fig-align="center"}
 
 ::: {.notes}
 We take a **sample** from the population.
@@ -81,7 +80,9 @@ We can use **inference**.
 
 However, inference based on data does not guarantee that the answers to our questions are right/true.
 
-In fact, any observation we make comes with a degree of **uncertainty and variability**.
+. . .
+
+### In fact, any observation we make comes with a degree of **uncertainty and variability**.
 
 
 ::: {.notes}
@@ -92,7 +93,7 @@ EXTRA: Find out about Popper's view of falsification and fallibilism.
 
 ## Uncertainty and variability
 
-![](../img/pliny.jpg)
+![](../img/pliny.jpg){fig-align="center"}
 
 ::: {.notes}
 
@@ -106,15 +107,15 @@ So we have to deal with:
 
 ##
 
-![](../img/uncertainty.png)
+![](../img/uncertainty.png){fig-align="center"}
 
 ##
 
-![](../img/saturn-galileo-sketches_med_hr.jpeg)
+![](../img/saturn-galileo-sketches_med_hr.jpeg){fig-align="center"}
 
 ## Statistics as a tool
 
-Statistics helps us **quantifying uncertainty and controlling for variability**.
+### Statistics helps us **quantifying uncertainty and controlling for variability**.
 
 ## What is statistics?
 
@@ -155,7 +156,7 @@ It is a *science* in that its methods are basically systematic and have general 
 
 # But... all that glisters is not gold
 
-![](../img/gollum-statistician.png)
+![](../img/gollum-statistician.png){fig-align="center"}
 
 
 ## What statistics is NOT
@@ -213,3 +214,90 @@ It is a *science* in that its methods are basically systematic and have general 
 :::
 :::
 
+## Research process cycle
+
+![](../img/res-process-cycle.png){fig-align="center"}
+
+## Questionable Research Practices
+
+![](../img/res-process-cycle-qrps.png){fig-align="center"}
+
+##
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/HUYFAK/questions/671a0fdebceee8af0026a35e" width="100%"></iframe>
+
+##
+
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/HUYFAK/questions/671a0fdedeac6802190f6db6" width="100%"></iframe>
+
+## The "New Statistics": the problem
+
+The Silberzahn et al and Coretta et al studies are just the tip of the iceberg. **We are currently facing a "research crisis".**
+
+. . .
+
+The New Statistics ([Cumming 2014](https://doi.org/10.1177%2F0956797613504966)) mainly addresses **three problems**:
+
+-   Published research is a biased selection of all (existing and possible) research.
+
+. . .
+
+-   Data analysis and reporting are often selective and biased.
+
+. . .
+
+-   In many research fields, studies are rarely replicated, so false conclusions persist.
+
+## The "New Statistics": the solution
+
+To help solve those problems, it proposes **these solutions** (among others):
+
+-   Promoting **research integrity**.
+
+. . .
+
+-   Shifting away from statistical significance to **estimation**.
+
+. . .
+
+-   Building a **cumulative** quantitative discipline.
+
+## Two approaches to statistics
+
+- **Null Hypothesis Significance Testing** (NHST)
+
+  - Focusses on rejecting a null (i.e. nil) hypothesis.
+  - Based on *p*-values.
+  - It cannot tell us anything about our actual hypothesis (not even if it's a nil hypothesis).
+
+. . .
+
+- **Bayesian statistics**
+
+  - Focusses on estimating effects of variables on other variables, differences among groups, relationships between variables.
+  - It allows us to estimate how confident we can be in our actual hypothesis.
+
+. . .
+
+To learn more, check this [entry](https://uoelel.github.io/qml/posts/freq-bayes.html) from the QML course (Hons and MSc).
+
+## Resources
+
+**Courses and workshops**
+
+- Quantitative Methods in Linguistics and English Language (Hons and MSc). Materials [here](https://uoelel.github.io/qml/).
+- Stats workshops for intermediate and advanced users: STeW series (<https://uoelel.github.io/stew.html>).
+
+**Textbooks**
+
+- **Statistics for Linguists in R** by Bodo Winter.
+- **Statistical Rethinking** by Richard McElreath.
+
+**Important topics**
+
+- Open Research/Scholarship practices.
+- Regression modelling.
+
+## Data Analysis at UoE LEL
+
+### <https://uoelel.github.io>
