@@ -8,9 +8,25 @@ format:
     fig-align: center
 ---
 
-##
+## 
 
-<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/HUYFAK/questions/671b610e9a1fef6627b8007e" width="100%"></iframe>
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/HUYFAK/questions/671b610e9a1fef6627b8007e" width="100%">
+
+</iframe>
+
+## The golems of emprirical research
+
+::: {.columns}
+::: {.column width="50%"}
+![](../img/Prague-golem-reproduction.jpg){fig-align="center" width="500"}
+:::
+
+::: {.column width="50%"}
+> However, there is no wisdom in the golem. It doesn't discern when the context is inappropriate for its answers. It just knows its own procedure, nothing else. It just does as it's told.
+
+—Richard McElreath, *Statistical Rethinking*
+:::
+:::
 
 ## 
 
