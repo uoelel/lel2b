@@ -126,15 +126,15 @@ Find out about the etymology of *empirical* in your own time!
 
 **Research question**
 
--   Research questions are **testable questions** whose answers directly address the problem.
+-   Research questions are **testable and precise questions** whose answers directly address the problem.
 
 **Research hypothesis**
 
 -   Research hypotheses are **statements** (not questions) about the research problem.
 
--   Hypotheses must be **falsifiable** (there can be in principle an outcome that shows them to be false).
+-   Hypotheses must be **testable and precise**.
 
-    -   A falsifiable hypothesis cannot include "may, could, might, in certain contexts" or any other vague expression!
+    -   A testable and precise hypothesis cannot include "may, could, might, in certain contexts" or any other vague expression!
 
 -   Hypotheses are never true nor confirmed. We can only **corroborate** hypothesis, and it's a long term process.
 
@@ -151,8 +151,6 @@ Find out about the etymology of *empirical* in your own time!
 -   Demoted subjects cannot be placed in focus positions.
 -   High vowels are shorter than low vowels.
 -   Lexical change is driven by young female speakers in the working class but by old male speakers in the middle and upper classes.
-
-\[Check this conversation with ChatGPT on hypotheses in linguistics: <https://chatgpt.com/share/671a0249-4eac-800a-98cd-2d6190242f5a>\]
 
 ## 
 
