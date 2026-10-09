@@ -20,5 +20,5 @@ format:
     css: styles.css
     toc: true
 
-
+callout-icon: false
 

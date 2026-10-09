@@ -7,6 +7,23 @@ format:
     history: false
 ---
 
+## The golems of empirical research
+
+::::: columns
+::: {.column width="50%"}
+![](../img/Prague-golem-reproduction.jpg){fig-align="center" width="500"}
+:::
+
+::: {.column width="50%"}
+> However, there is no wisdom in the golem.
+> It doesn't discern when the context is inappropriate for its answers.
+> It just knows its own procedure, nothing else.
+> It just does as it's told.
+
+—Richard McElreath, *Statistical Rethinking*
+:::
+:::::
+
 ## 
 
 ![](../img/Alice_par_John_Tenniel_25.png)
@@ -21,6 +38,49 @@ For, you see, so many out-of-the-way things had happened lately, that Alice had 
 
 —Alice, from Disney's *Alice in Wonderland*
 :::
+
+## Research focus (Creswell 2021)
+
+![](../img/research-topic.png){fig-align="center"}
+
+## Research question and hypotheses
+
+**Research question**
+
+- Research questions are **testable and precise questions** whose answers directly address the problem.
+
+**Research hypothesis**
+
+- Research hypotheses are **statements** (not questions) about the research problem.
+
+- Hypotheses must be **testable and precise**.
+
+  - A testable and precise hypothesis cannot include "may, could, might, in certain contexts" or any other vague expression!
+
+- Hypotheses are never true nor confirmed.
+  We can only **corroborate** hypothesis, and it's a long term process.
+
+## Research question and hypotheses: examples
+
+**Research questions**
+
+- What are the pragmatic uses of *bro* in the LGBTQ+ community?
+- How do British Sign Language users mark evidentiality?
+- Why do vowels tend to be shorter before voiceless consonants and longer before voiced ones?
+
+**Research hypotheses**
+
+- Demoted subjects cannot be placed in focus positions.
+- High vowels are shorter than low vowels.
+- Lexical change is driven by young female speakers in the working class but by old male speakers in the middle and upper classes.
+
+## 
+
+```{=html}
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" data-src="https://app.wooclap.com/events/HUYFAK/questions/671919e16d39bc64ad767c83" width="100%">
+
+</iframe>
+```
 
 ## 
 
