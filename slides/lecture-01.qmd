@@ -150,3 +150,7 @@ Empirical methods in general and statistical methods in particular are not just 
 
 3.  If two people or communities produce different but well-supported accounts of the same phenomenon, can both be true?
 :::
+
+. . .
+
+You can read my researcher orientation here: <https://stefanocoretta.github.io/orientation.html>
