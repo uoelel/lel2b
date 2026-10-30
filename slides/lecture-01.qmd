@@ -133,12 +133,20 @@ This includes, but it is not limited to, lived experiences, social positionality
 
 . . .
 
+::: callout-note
+## Philosophical stance
+
+Empirical methods in general and statistical methods in particular are not just tools in a vacuum.
+:::
+
+. . .
+
 ::: callout-tip
-## Activity
+## Activity: your philosophical stance
 
-- Is there an objective reality outside our mind?
+1.  Does reality exist independently of how we perceive, describe, or understand it?
 
-- Is observation the only valid way to obtain trustworthy knowledge?
+2.  How can we know whether our beliefs about reality are true?
 
-- Is there an objective truth to be captured?
+3.  If two people or communities produce different but well-supported accounts of the same phenomenon, can both be true?
 :::
