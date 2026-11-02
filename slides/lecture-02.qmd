@@ -1,111 +1,17 @@
 ---
 title: "Empirical research"
-subtitle: "Quantitative methods and uncertainty"
+subtitle: "Inference and statistics"
 author: "Stefano Coretta"
 format:
   mono-accent-revealjs:
     history: false
 ---
 
-## The golems of empirical research
-
-::::: columns
-::: {.column width="50%"}
-![](../img/Prague-golem-reproduction.jpg){fig-align="center" width="500"}
-:::
-
-::: {.column width="50%"}
-> However, there is no wisdom in the golem.
-> It doesn't discern when the context is inappropriate for its answers.
-> It just knows its own procedure, nothing else.
-> It just does as it's told.
-
-—Richard McElreath, *Statistical Rethinking*
-:::
-:::::
-
-## 
-
-![](../img/Alice_par_John_Tenniel_25.png)
-
-For, you see, so many out-of-the-way things had happened lately, that Alice had begun to think that very few things indeed were really impossible.
-
-—Lewis C. Carol, Alice's Adventures in Wonderland
-
-
-::: {.notes}
-"If I had a world of my own, everything would be nonsense. Nothing would be what it is, because everything would be what it isn't. And contrary wise, what is, it wouldn't be. And what it wouldn't be, it would. You see?"
-
-—Alice, from Disney's *Alice in Wonderland*
-:::
-
-## Research focus (Creswell 2021)
-
-![](../img/research-topic.png){fig-align="center"}
-
-## Research question and hypotheses
-
-**Research question**
-
-- Research questions are **testable and precise questions** whose answers directly address the problem.
-
-**Research hypothesis**
-
-- Research hypotheses are **statements** (not questions) about the research problem.
-
-- Hypotheses must be **testable and precise**.
-
-  - A testable and precise hypothesis cannot include "may, could, might, in certain contexts" or any other vague expression!
-
-- Hypotheses are never true nor confirmed.
-  We can only **corroborate** hypothesis, and it's a long term process.
-
-## Research question and hypotheses: examples
-
-**Research questions**
-
-- What are the pragmatic uses of *bro* in the LGBTQ+ community?
-- How do British Sign Language users mark evidentiality?
-- Why do vowels tend to be shorter before voiceless consonants and longer before voiced ones?
-
-**Research hypotheses**
-
-- Demoted subjects cannot be placed in focus positions.
-- High vowels are shorter than low vowels.
-- Lexical change is driven by young female speakers in the working class but by old male speakers in the middle and upper classes.
-
-## 
-
-```{=html}
-<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" data-src="https://app.wooclap.com/events/HUYFAK/questions/671919e16d39bc64ad767c83" width="100%">
-
-</iframe>
-```
-
-## 
-
-![](../img/res-process-data-ana.png)
-
-## Data analysis
-
-![](../img/data-quant-qual.png)
-
-## Quantitative data analysis
-
-![](../img/data-quant.png)
-
-##
-
-### The numbers have no way of speaking for themselves. We speak for them. We imbue them with meaning.
-
-— Nate Silver, *The Signal and the Noise*
-
 ## Inference process
 
 ![](../img/bro.png){fig-align="center"}
 
-
-::: {.notes}
+::: notes
 Imbuing numbers with meaning is a good characterisation of the "inference process".
 
 We have a question about something.
@@ -116,14 +22,15 @@ We want to know whether the cultural background of the BSL signers is linked to 
 
 But we can't survey the entire population of BSL signers.
 
-NOTE: *Population* can be a set of anything, not just a specific group of people. For example, the words in a dictionary can be a "population"; or the antipassive constructions of Austronesian languages; or ...
+NOTE: *Population* can be a set of anything, not just a specific group of people.
+For example, the words in a dictionary can be a "population"; or the antipassive constructions of Austronesian languages; or ...
 :::
 
 ## Inference process
 
 ![](../img/inference.png){fig-align="center"}
 
-::: {.notes}
+::: notes
 We take a **sample** from the population.
 
 This is our empirical data (the product of observation).
@@ -133,7 +40,6 @@ How do we go from data/observation to answering our question?
 We can use **inference**.
 
 **Inference** is the process of understanding something about a population based on the sample (aka the data) taken from that population.
-
 :::
 
 ## Inference is not infallible
@@ -142,85 +48,49 @@ However, inference based on data does not guarantee that the answers to our ques
 
 . . .
 
-### In fact, any observation we make comes with a degree of **uncertainty and variability**.
-
-
-::: {.notes}
-EXTRA: Check out this article: <https://www.scientificamerican.com/article/if-you-say-science-is-right-youre-wrong/>
-
-EXTRA: Find out about Popper's view of falsification and fallibilism.
-:::
-
-## Uncertainty and variability
+In fact, any observation we make comes with a degree of **uncertainty and variability**.
 
 ![](../img/pliny.jpg){fig-align="center"}
 
-::: {.notes}
+
+::: notes
+EXTRA: Check out this article: <https://www.scientificamerican.com/article/if-you-say-science-is-right-youre-wrong/>
+
+EXTRA: Find out about Popper's view of falsification and fallibilism.
 
 So we have to deal with:
 
 - Uncertainty in any observation of a phenomenon.
 
 - Variability among different observations of the same phenomenon.
-
 :::
-
-##
-
-![](../img/uncertainty.png){fig-align="center"}
-
-##
-
-![](../img/saturn-galileo-sketches_med_hr.jpeg){fig-align="center"}
-
-## Statistics as a tool
-
-### Statistics helps us **quantifying uncertainty and controlling for variability**.
 
 ## What is statistics?
 
-![](../img/charles-deluvio-Mv9hjnEUHR4-unsplash.jpg)
-
-::: {.notes}
-
-EXTRA: Check out the etymology of *statistics* here: <https://en.wiktionary.org/wiki/statistics#Etymology_1>.
-
-Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Charles Deluvio</a> on <a href="https://unsplash.com/s/photos/dog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-:::
-
-##
-
-<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/HUYFAK/questions/67191cc567e9a2301f6dea04" width="100%"></iframe>
-
-## What is statistics?
+::: {.callout-tip .incremental}
+### Statistics helps us **quantifying uncertainty and variability**.
 
 - Statistics is the **science** concerned with developing and studying methods for collecting, analyzing, interpreting and presenting empirical data. (From [UCI Department of Statistics](https://www.stat.uci.edu/what-is-statistics/))
 
-. . .
-
 - Statistics is the **technology** of extracting information, illumination and understanding from data, often in the face of uncertainty. (From the [British Academy](https://www.thebritishacademy.ac.uk/blog/what-is-statistics/))
-
-. . .
 
 - Statistics is a **mathematical and conceptual** discipline that focuses on the relation between data and hypotheses. (From the [Standford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/statistics/))
 
-. . .
-
 - Statistics as the **art** of applying the science of scientific methods. (From [ORI Results](https://www.oriresults.com/articles/blog-posts/the-art-of-statistics/), [Nature](https://www.nature.com/articles/d41586-019-00898-0))
+
+:::
 
 ## Statistic is both a science and an art
 
+::: {.callout-tip appearance="simple"}
 It is a *science* in that its methods are basically systematic and have general application and an *art* in that their successful application depends, to a considerable degree, on the skill and special experience of the statistician, and on his knowledge of the field of application.
 
-—L. H. C. Tippett
-
-# But... all that glisters is not gold
-
-![](../img/gollum-statistician.png){fig-align="center"}
-
+—L.H.C. Tippett
+:::
 
 ## What statistics is NOT
 
+::: {.callout-important appearance="simple"}
 - Statistics is **not maths.**
 
 - Statistics is **not about hard truths.**
@@ -229,135 +99,69 @@ It is a *science* in that its methods are basically systematic and have general 
 
 - Statistics is **not a substitute** of common sense and expert knowledge.
 
-- Statistics is **not just $p$-values** and significance testing.
-
-## Many Analysts, One Data Set: Silberzahn et al 2018
-
-::: {.columns}
-::: {.column width="50%"}
-![](../img/red-card.jpg)
+- Statistics is **not just** $p$-values and significance testing.
 :::
 
-::: {.column width="50%"}
-**Is there a link between player skin tone and number of red cards in soccer?**
 
-- **29 independent analysis teams**.
-
-- 69% of the teams reported an effect, and 31% did not.
-
-- **21 unique** types of statistical analysis.
-
-
-> The observed results from analyzing a complex data set can be highly contingent on **justifiable**, but **subjective**, analytic decisions.
-
-—Silberzahn et al 2018
-:::
-:::
-
-## Many Analysts, One Data Set: Coretta et al 2023
-
-::: {.columns}
-::: {.column width="50%"}
-![](../img/forking-paths.png)
-:::
-
-::: {.column width="50%"}
-**Do speakers acoustically modify utterances to signal atypical word combinations?**
-
-- **30 independent analysis teams** (84 signed up, 46 submitted an analysis, 30 submitted usable analyses).
-- **109** individual analyses.
-- **52** unique measurement specifications, **47** unique model specifications.
-
-> Nine teams out of the thirty (30%) reported to have found at least one statistically reliable effect (based on the inferential criteria they specified). Of the 170 critical model coefficients, 37 were claimed to show a statistically reliable effect (21.8%).
-
-—Coretta et al, 2023
-:::
-:::
-
-## Research process cycle
-
-![](../img/res-process-cycle.png){fig-align="center"}
-
-## Questionable Research Practices
+## The research crisis: Questionable Research Practices
 
 ![](../img/res-process-cycle-qrps.png){fig-align="center"}
 
-##
-
-<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/HUYFAK/questions/671a0fdebceee8af0026a35e" width="100%"></iframe>
-
-##
-
-<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/HUYFAK/questions/671a0fdedeac6802190f6db6" width="100%"></iframe>
-
-## The "New Statistics": the problem
-
-The Silberzahn et al and Coretta et al studies are just the tip of the iceberg. **We are currently facing a "research crisis".**
-
-. . .
-
-The New Statistics ([Cumming 2014](https://doi.org/10.1177%2F0956797613504966)) mainly addresses **three problems**:
-
--   Published research is a biased selection of all (existing and possible) research.
-
-. . .
-
--   Data analysis and reporting are often selective and biased.
-
-. . .
-
--   In many research fields, studies are rarely replicated, so false conclusions persist.
-
-## The "New Statistics": the solution
-
-To help solve those problems, it proposes **these solutions** (among others):
-
--   Promoting **research integrity**.
-
-. . .
-
--   Shifting away from statistical significance to **estimation**.
-
-. . .
-
--   Building a **cumulative** quantitative discipline.
 
 ## Two approaches to statistics
 
-- **Null Hypothesis Significance Testing** (NHST)
+::: callout-note
+### Null Hypothesis Significance Testing (NHST)
 
-  - Focusses on rejecting a null (i.e. nil) hypothesis.
+  - Focusses on rejecting a null hypothesis $H_0$ (typically, a *nil* hypothesis, i.e. a difference of exactly 0).
+  
   - Based on *p*-values.
-  - It cannot tell us anything about our actual hypothesis (not even if it's a nil hypothesis).
+
+:::
 
 . . .
 
-- **Bayesian statistics**
+::: callout-note
+### Bayesian statistics
 
-  - Focusses on estimating effects of variables on other variables, differences among groups, relationships between variables.
-  - It allows us to estimate how confident we can be in our actual hypothesis.
+  - Focusses on estimating the probability of hypotheses given the observed data and prior beliefs.
+  
+  - Allows us to quantify uncertainty about hypotheses.
+
+:::
+
+## Null Hypothesis Significance Testing
+
+::: callout-note
+### Context
+
+You obtain data from two groups: A and B. You run a significance test (like a *t*-test or a $\chi^2$-test) which compares the data of the groups and you get a *p*-value.
+:::
 
 . . .
 
-To learn more, check this [entry](https://uoelel.github.io/qml/posts/freq-bayes.html) from the QML course (Hons and MSc).
+::: callout-tip
+### *p*-value: definition
 
-## Resources
+A *p*-value is the probability of obtaining a difference as large or larger as the one you observed, given that there is no difference.
 
-**Courses and workshops**
+If the *p*-value is smaller than a threshold, you reject $H_0$ (that there is no difference).
 
-- Quantitative Methods in Linguistics and English Language (Hons and MSc). Materials [here](https://uoelel.github.io/qml/).
-- Stats workshops for intermediate and advanced users: STeW series (<https://uoelel.github.io/stew.html>).
+:::
 
-**Textbooks**
+. . .
 
-- **Statistics for Linguists in R** by Bodo Winter.
-- **Statistical Rethinking** by Richard McElreath.
+::: callout-warning
+### Careful
 
-**Important topics**
+- In NHST, the null hypothesis $H_0$ is always true.
+- You can only reject the null hypothesis $H_0$, not disprove it nor prove it.
+- The *p*-value is not about the probability that the difference is not 0 (the alternative hypothesis, $H_1$). Rejecting $H_0$ does not mean $H_1$ is true.
+- The *p*-value does not tell you anything about the replicability of the results.
+:::
 
-- Open Research/Scholarship practices.
-- Regression modelling.
+## Further resources
 
-## Data Analysis at UoE LEL
+- Data Analysis @ LEL: <https://uoelel.github.io>
 
-### <https://uoelel.github.io>
+- Textbook: <https://stefanocoretta.github.io/qdal/>

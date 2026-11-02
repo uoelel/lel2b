@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.19">
+
+  <meta name="author" content="Stefano Coretta">
+  <title>LEL2B – Empirical research</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-25e95fd146789a505fa577abaa21b7d3.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" data-background="var(--inverse)" class="quarto-title-block center">
+  <h1 class="title">Empirical research</h1>
+  <p class="subtitle">Quantitative methods and uncertainty</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Stefano Coretta
+</div>
+</div>
+</div>
+
+</section>
+<section id="the-golems-of-empirical-research" class="slide level2">
+<h2>The golems of empirical research</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../img/Prague-golem-reproduction.jpg" class="quarto-figure quarto-figure-center" width="500"></p>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<blockquote>
+<p>However, there is no wisdom in the golem. It doesn’t discern when the context is inappropriate for its answers. It just knows its own procedure, nothing else. It just does as it’s told.</p>
+</blockquote>
+<p>—Richard McElreath, <em>Statistical Rethinking</em></p>
+</div></div>
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
+
+<img data-src="../img/Alice_par_John_Tenniel_25.png" class="r-stretch"><p>For, you see, so many out-of-the-way things had happened lately, that Alice had begun to think that very few things indeed were really impossible.</p>
+<p>—Lewis C. Carol, Alice’s Adventures in Wonderland</p>
+<aside class="notes">
+<p>“If I had a world of my own, everything would be nonsense. Nothing would be what it is, because everything would be what it isn’t. And contrary wise, what is, it wouldn’t be. And what it wouldn’t be, it would. You see?”</p>
+<p>—Alice, from Disney’s <em>Alice in Wonderland</em></p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="research-focus-creswell-2021" class="slide level2">
+<h2>Research focus (Creswell 2021)</h2>
+
+<img data-src="../img/research-topic.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="research-question-and-hypotheses" class="slide level2">
+<h2>Research question and hypotheses</h2>
+<p><strong>Research question</strong></p>
+<ul>
+<li>Research questions are <strong>testable and precise questions</strong> whose answers directly address the problem.</li>
+</ul>
+<p><strong>Research hypothesis</strong></p>
+<ul>
+<li><p>Research hypotheses are <strong>statements</strong> (not questions) about the research problem.</p></li>
+<li><p>Hypotheses must be <strong>testable and precise</strong>.</p>
+<ul>
+<li>A testable and precise hypothesis cannot include “may, could, might, in certain contexts” or any other vague expression!</li>
+</ul></li>
+<li><p>Hypotheses are never true nor confirmed. We can only <strong>corroborate</strong> hypothesis, and it’s a long term process.</p></li>
+</ul>
+</section>
+<section id="research-question-and-hypotheses-examples" class="slide level2">
+<h2>Research question and hypotheses: examples</h2>
+<p><strong>Research questions</strong></p>
+<ul>
+<li>What are the pragmatic uses of <em>bro</em> in the LGBTQ+ community?</li>
+<li>How do British Sign Language users mark evidentiality?</li>
+<li>Why do vowels tend to be shorter before voiceless consonants and longer before voiced ones?</li>
+</ul>
+<p><strong>Research hypotheses</strong></p>
+<ul>
+<li>Demoted subjects cannot be placed in focus positions.</li>
+<li>High vowels are shorter than low vowels.</li>
+<li>Lexical change is driven by young female speakers in the working class but by old male speakers in the middle and upper classes.</li>
+</ul>
+</section>
+<section id="section-1" class="slide level2">
+<h2></h2>
+<iframe allowfullscreen="" frameborder="0" height="100%" mozallowfullscreen="" style="min-width: 500px; min-height: 355px" data-src="https://app.wooclap.com/events/HUYFAK/questions/671919e16d39bc64ad767c83" width="100%">
+
+</iframe>
+</section>
+<section id="section-2" class="slide level2">
+<h2></h2>
+
+<img data-src="../img/res-process-data-ana.png" class="r-stretch"></section>
+<section id="data-analysis" class="slide level2">
+<h2>Data analysis</h2>
+
+<img data-src="../img/data-quant-qual.png" class="r-stretch"></section>
+<section id="quantitative-data-analysis" class="slide level2">
+<h2>Quantitative data analysis</h2>
+
+<img data-src="../img/data-quant.png" class="r-stretch"></section>
+<section id="section-3" class="slide level2">
+<h2></h2>
+<h3 id="the-numbers-have-no-way-of-speaking-for-themselves.-we-speak-for-them.-we-imbue-them-with-meaning.">The numbers have no way of speaking for themselves. We speak for them. We imbue them with meaning.</h3>
+<p>— Nate Silver, <em>The Signal and the Noise</em></p>
+</section>
+<section id="inference-process" class="slide level2">
+<h2>Inference process</h2>
+
+<img data-src="../img/bro.png" class="quarto-figure quarto-figure-center r-stretch"><aside class="notes">
+<p>Imbuing numbers with meaning is a good characterisation of the “inference process”.</p>
+<p>We have a question about something.</p>
+<p>Let’s imagine that this something is the population of British Sign Language signers.</p>
+<p>We want to know whether the cultural background of the BSL signers is linked to different pragmatic uses of the sign for BROTHER.</p>
+<p>But we can’t survey the entire population of BSL signers.</p>
+<p>NOTE: <em>Population</em> can be a set of anything, not just a specific group of people. For example, the words in a dictionary can be a “population”; or the antipassive constructions of Austronesian languages; or …</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="inference-process-1" class="slide level2">
+<h2>Inference process</h2>
+
+<img data-src="../img/inference.png" class="quarto-figure quarto-figure-center r-stretch"><aside class="notes">
+<p>We take a <strong>sample</strong> from the population.</p>
+<p>This is our empirical data (the product of observation).</p>
+<p>How do we go from data/observation to answering our question?</p>
+<p>We can use <strong>inference</strong>.</p>
+<p><strong>Inference</strong> is the process of understanding something about a population based on the sample (aka the data) taken from that population.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="inference-is-not-infallible" class="slide level2">
+<h2>Inference is not infallible</h2>
+<p>However, inference based on data does not guarantee that the answers to our questions are right/true.</p>
+<div class="fragment">
+<h3 id="in-fact-any-observation-we-make-comes-with-a-degree-of-uncertainty-and-variability.">In fact, any observation we make comes with a degree of <strong>uncertainty and variability</strong>.</h3>
+<aside class="notes">
+<p>EXTRA: Check out this article: <a href="https://www.scientificamerican.com/article/if-you-say-science-is-right-youre-wrong/" class="uri">https://www.scientificamerican.com/article/if-you-say-science-is-right-youre-wrong/</a></p>
+<p>EXTRA: Find out about Popper’s view of falsification and fallibilism.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="uncertainty-and-variability" class="slide level2">
+<h2>Uncertainty and variability</h2>
+
+<img data-src="../img/pliny.jpg" class="quarto-figure quarto-figure-center r-stretch"><aside class="notes">
+<p>So we have to deal with:</p>
+<ul>
+<li><p>Uncertainty in any observation of a phenomenon.</p></li>
+<li><p>Variability among different observations of the same phenomenon.</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-4" class="slide level2">
+<h2></h2>
+
+<img data-src="../img/uncertainty.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="section-5" class="slide level2">
+<h2></h2>
+
+<img data-src="../img/saturn-galileo-sketches_med_hr.jpeg" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="statistics-as-a-tool" class="slide level2">
+<h2>Statistics as a tool</h2>
+<h3 id="statistics-helps-us-quantifying-uncertainty-and-controlling-for-variability.">Statistics helps us <strong>quantifying uncertainty and controlling for variability</strong>.</h3>
+</section>
+<section id="what-is-statistics" class="slide level2">
+<h2>What is statistics?</h2>
+
+<img data-src="../img/charles-deluvio-Mv9hjnEUHR4-unsplash.jpg" class="r-stretch"><aside class="notes">
+<p>EXTRA: Check out the etymology of <em>statistics</em> here: <a href="https://en.wiktionary.org/wiki/statistics#Etymology_1" class="uri">https://en.wiktionary.org/wiki/statistics#Etymology_1</a>.</p>
+<p>Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Charles Deluvio</a> on <a href="https://unsplash.com/s/photos/dog?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-6" class="slide level2">
+<h2></h2>
+<iframe allowfullscreen="" frameborder="0" height="100%" mozallowfullscreen="" style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/HUYFAK/questions/67191cc567e9a2301f6dea04" width="100%">
+</iframe>
+</section>
+<section id="what-is-statistics-1" class="slide level2">
+<h2>What is statistics?</h2>
+<ul>
+<li>Statistics is the <strong>science</strong> concerned with developing and studying methods for collecting, analyzing, interpreting and presenting empirical data. (From <a href="https://www.stat.uci.edu/what-is-statistics/">UCI Department of Statistics</a>)</li>
+</ul>
+<div class="fragment">
+<ul>
+<li>Statistics is the <strong>technology</strong> of extracting information, illumination and understanding from data, often in the face of uncertainty. (From the <a href="https://www.thebritishacademy.ac.uk/blog/what-is-statistics/">British Academy</a>)</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Statistics is a <strong>mathematical and conceptual</strong> discipline that focuses on the relation between data and hypotheses. (From the <a href="https://plato.stanford.edu/entries/statistics/">Standford Encyclopedia of Philosophy</a>)</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Statistics as the <strong>art</strong> of applying the science of scientific methods. (From <a href="https://www.oriresults.com/articles/blog-posts/the-art-of-statistics/">ORI Results</a>, <a href="https://www.nature.com/articles/d41586-019-00898-0">Nature</a>)</li>
+</ul>
+</div>
+</section>
+<section id="statistic-is-both-a-science-and-an-art" class="slide level2">
+<h2>Statistic is both a science and an art</h2>
+<p>It is a <em>science</em> in that its methods are basically systematic and have general application and an <em>art</em> in that their successful application depends, to a considerable degree, on the skill and special experience of the statistician, and on his knowledge of the field of application.</p>
+<p>—L. H. C. Tippett</p>
+</section>
+<section>
+<section id="but-all-that-glisters-is-not-gold" class="title-slide slide level1 center">
+<h1>But… all that glisters is not gold</h1>
+
+<img data-src="../img/gollum-statistician.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="what-statistics-is-not" class="slide level2">
+<h2>What statistics is NOT</h2>
+<ul>
+<li><p>Statistics is <strong>not maths.</strong></p></li>
+<li><p>Statistics is <strong>not about hard truths.</strong></p></li>
+<li><p>Statistics is <strong>not a purely objective</strong> endeavour.</p></li>
+<li><p>Statistics is <strong>not a substitute</strong> of common sense and expert knowledge.</p></li>
+<li><p>Statistics is <strong>not just</strong> <span class="math inline">\(p\)</span>-values and significance testing.</p></li>
+</ul>
+</section>
+<section id="many-analysts-one-data-set-silberzahn-et-al-2018" class="slide level2">
+<h2>Many Analysts, One Data Set: Silberzahn et al 2018</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="../img/red-card.jpg"></p>
+</div><div class="column" style="width:50%;">
+<p><strong>Is there a link between player skin tone and number of red cards in soccer?</strong></p>
+<ul>
+<li><p><strong>29 independent analysis teams</strong>.</p></li>
+<li><p>69% of the teams reported an effect, and 31% did not.</p></li>
+<li><p><strong>21 unique</strong> types of statistical analysis.</p></li>
+</ul>
+<blockquote>
+<p>The observed results from analyzing a complex data set can be highly contingent on <strong>justifiable</strong>, but <strong>subjective</strong>, analytic decisions.</p>
+</blockquote>
+<p>—Silberzahn et al 2018</p>
+</div></div>
+</section>
+<section id="many-analysts-one-data-set-coretta-et-al-2023" class="slide level2">
+<h2>Many Analysts, One Data Set: Coretta et al 2023</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="../img/forking-paths.png"></p>
+</div><div class="column" style="width:50%;">
+<p><strong>Do speakers acoustically modify utterances to signal atypical word combinations?</strong></p>
+<ul>
+<li><strong>30 independent analysis teams</strong> (84 signed up, 46 submitted an analysis, 30 submitted usable analyses).</li>
+<li><strong>109</strong> individual analyses.</li>
+<li><strong>52</strong> unique measurement specifications, <strong>47</strong> unique model specifications.</li>
+</ul>
+<blockquote>
+<p>Nine teams out of the thirty (30%) reported to have found at least one statistically reliable effect (based on the inferential criteria they specified). Of the 170 critical model coefficients, 37 were claimed to show a statistically reliable effect (21.8%).</p>
+</blockquote>
+<p>—Coretta et al, 2023</p>
+</div></div>
+</section>
+<section id="research-process-cycle" class="slide level2">
+<h2>Research process cycle</h2>
+
+<img data-src="../img/res-process-cycle.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="questionable-research-practices" class="slide level2">
+<h2>Questionable Research Practices</h2>
+
+<img data-src="../img/res-process-cycle-qrps.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="section-7" class="slide level2">
+<h2></h2>
+<iframe allowfullscreen="" frameborder="0" height="100%" mozallowfullscreen="" style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/HUYFAK/questions/671a0fdebceee8af0026a35e" width="100%">
+</iframe>
+</section>
+<section id="section-8" class="slide level2">
+<h2></h2>
+<iframe allowfullscreen="" frameborder="0" height="100%" mozallowfullscreen="" style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/events/HUYFAK/questions/671a0fdedeac6802190f6db6" width="100%">
+</iframe>
+</section>
+<section id="the-new-statistics-the-problem" class="slide level2">
+<h2>The “New Statistics”: the problem</h2>
+<p>The Silberzahn et al and Coretta et al studies are just the tip of the iceberg. <strong>We are currently facing a “research crisis”.</strong></p>
+<div class="fragment">
+<p>The New Statistics (<a href="https://doi.org/10.1177%2F0956797613504966">Cumming 2014</a>) mainly addresses <strong>three problems</strong>:</p>
+<ul>
+<li>Published research is a biased selection of all (existing and possible) research.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Data analysis and reporting are often selective and biased.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>In many research fields, studies are rarely replicated, so false conclusions persist.</li>
+</ul>
+</div>
+</section>
+<section id="the-new-statistics-the-solution" class="slide level2">
+<h2>The “New Statistics”: the solution</h2>
+<p>To help solve those problems, it proposes <strong>these solutions</strong> (among others):</p>
+<ul>
+<li>Promoting <strong>research integrity</strong>.</li>
+</ul>
+<div class="fragment">
+<ul>
+<li>Shifting away from statistical significance to <strong>estimation</strong>.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Building a <strong>cumulative</strong> quantitative discipline.</li>
+</ul>
+</div>
+</section>
+<section id="two-approaches-to-statistics" class="slide level2">
+<h2>Two approaches to statistics</h2>
+<ul>
+<li><p><strong>Null Hypothesis Significance Testing</strong> (NHST)</p>
+<ul>
+<li>Focusses on rejecting a null (i.e.&nbsp;nil) hypothesis.</li>
+<li>Based on <em>p</em>-values.</li>
+<li>It cannot tell us anything about our actual hypothesis (not even if it’s a nil hypothesis).</li>
+</ul></li>
+</ul>
+<div class="fragment">
+<ul>
+<li><p><strong>Bayesian statistics</strong></p>
+<ul>
+<li>Focusses on estimating effects of variables on other variables, differences among groups, relationships between variables.</li>
+<li>It allows us to estimate how confident we can be in our actual hypothesis.</li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<p>To learn more, check this <a href="https://uoelel.github.io/qml/posts/freq-bayes.html">entry</a> from the QML course (Hons and MSc).</p>
+</div>
+</section>
+<section id="resources" class="slide level2">
+<h2>Resources</h2>
+<p><strong>Courses and workshops</strong></p>
+<ul>
+<li>Quantitative Methods in Linguistics and English Language (Hons and MSc). Materials <a href="https://uoelel.github.io/qml/">here</a>.</li>
+<li>Stats workshops for intermediate and advanced users: STeW series (<a href="https://uoelel.github.io/stew.html" class="uri">https://uoelel.github.io/stew.html</a>).</li>
+</ul>
+<p><strong>Textbooks</strong></p>
+<ul>
+<li><strong>Statistics for Linguists in R</strong> by Bodo Winter.</li>
+<li><strong>Statistical Rethinking</strong> by Richard McElreath.</li>
+</ul>
+<p><strong>Important topics</strong></p>
+<ul>
+<li>Open Research/Scholarship practices.</li>
+<li>Regression modelling.</li>
+</ul>
+</section>
+<section id="data-analysis-at-uoe-lel" class="slide level2">
+<h2>Data Analysis at UoE LEL</h2>
+<h3 id="httpsuoelel.github.io"><a href="https://uoelel.github.io" class="uri">https://uoelel.github.io</a></h3>
+
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.2,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>
