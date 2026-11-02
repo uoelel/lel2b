@@ -153,4 +153,10 @@ Empirical methods in general and statistical methods in particular are not just 
 
 . . .
 
-You can read my researcher orientation here: <https://stefanocoretta.github.io/orientation.html>
+::: callout-note
+## Examples
+
+- You can read my researcher orientation here: <https://stefanocoretta.github.io/orientation.html>
+
+- See how to use researcher orientations in a publication: <https://www.ecolinguistics-association.org/_files/ugd/ae088a_fa348b19d94645528534f209ca482582.pdf>
+:::
