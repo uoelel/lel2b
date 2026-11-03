@@ -164,4 +164,4 @@ If the *p*-value is smaller than a threshold, you reject $H_0$ (that there is no
 
 - Data Analysis @ LEL: <https://uoelel.github.io>
 
-- Textbook: <https://stefanocoretta.github.io/qdal/>
+- Textbook: <https://stefanocoretta.github.io/qdal/>. Especially Chapter <https://stefanocoretta.github.io/qdal/ch-null-ritual.html> on *p*-values.
